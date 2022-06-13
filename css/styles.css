@@ -1,0 +1,19 @@
+#floating{
+    position: absolute;
+    border-radius: 50%;
+    /*Poner para que salga desde abajo a la derecha*/
+}
+.bi-arrow-up-circle-fill{
+    font-size: 24px;
+    color: green
+}
+
+.bonito {
+    display: flex;
+    text-align: center;
+    text-align: center;
+}
+
+.navbar-title{
+    color: aliceblue !important;
+}

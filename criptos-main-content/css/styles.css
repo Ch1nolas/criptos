@@ -1,0 +1,46 @@
+body {
+    background-image: linear-gradient(to right, #343659 20%, #151826 80%);
+    color: rgb(177, 184, 190) !important;
+}
+
+.navbar-title {
+    color: aliceblue !important;
+    display: flex;
+    justify-content: center;
+    font-size: 40px !important;
+}
+
+.navbar {
+    display: grid !important;
+    justify-content: center !important;
+}
+
+/*Se usa !important debido a que se está modificando Bootstrap y sin este no lo cambia*/
+
+.foto-header{
+    height: 350px;
+    width: 100%;
+    position: relative;
+}
+
+.contenido-titulo{
+    position: absolute;
+    
+    background-color: rgba(0, 0, 0, 0.3);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenido-subtitulo{
+    padding: 10px;
+    backdrop-filter: blur(5px);
+     /*Falta hacer linea entre medio*/
+}
+
+.img-bitcoin{
+    float: left;
+}

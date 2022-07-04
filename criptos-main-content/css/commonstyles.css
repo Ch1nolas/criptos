@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Squada+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import '/node_modules/animate.css/animate.css';
 
 .font{
     font-family: 'Squada One', cursive;
@@ -34,6 +35,26 @@
     font-size: 140px;
 }
 
-.animacion:hover {
-    
+
+.animacion-titulo::before:hover {
+    animation: rubberBand;
+    animation-duration: 1s;
+}
+
+.span::before:hover {
+    animation: rubberBand;
+    animation-duration: 1s;
+}
+
+@media (min-width: 1366px){
+    .titulo {
+        top: 70%;
+        margin-left: 10%;
+        line-height: 100px;
+    }
+
+    .num {
+        top: 100%;
+        margin-left: 84%;
+    }
 }
